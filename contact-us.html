@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!-- IE Compatible Meta -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<!-- First Mobile Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Material Design | Contact Us</title>
+	<meta name="description" content="Material Design A modern responsive Template">
+	<!-- The favicon ico -->
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+    <!-- Animate -->
+    <link href="css/animate.css" rel="stylesheet">
+	<!-- materialize Style -->
+	<link href="css/materialize.min.css" rel="stylesheet" />
+	<!-- Main Style -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<!-- Start NavBar -->
+	<div class="navbar-fixed">
+		<nav>
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="#!" class="brand-logo">Logo</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-navicon"></i></a>
+					<!-- this menu will be hide on mobile -->
+					<ul class="right hide-on-med-and-down">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#about-us">About Us</a></li>
+						<li><a href="index.html#our-works">Our Works</a></li>
+						<!-- Dropdown Trigger -->
+						<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Services <i class="fa fa-angle-down"></i></a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+					</ul>
+					<!--/ End menu1 -->
+
+					<!-- this is slide left menu will be show on mobile -->
+					<ul class="side-nav" id="mobile-demo">
+						<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+						<li><a href="blog.html"><i class="fa fa-leaf"></i> Blog</a></li>
+						<li><a href="#about-us"><i class="fa fa-users"></i> About Us</a></li>
+						<li><a href="#our-works"><i class="fa fa-laptop"></i> Our Works</a></li>
+						<li><a href="#!"><i class="fa fa-cog"></i> Services</a></li>
+						<li><a href="contact-us.html"><i class="fa fa-envelope-o"></i> Contact Us</a></li>
+					</ul>
+					<!--/ End slide menu1 -->
+				</div>
+			</div>
+		</nav>
+		<!-- End NavBar -->
+
+		  <!-- Dropdown Structure -->
+		<ul id="dropdown1" class="dropdown-content">
+		  <li><a href="#!">service1</a></li>
+		  <li><a href="#!">service2</a></li>
+		  <li class="divider"></li>
+		  <li><a href="#!">service3</a></li>
+		</ul>
+		
+	</div>
+	<!-- End Dropdown -->
+
+	<!-- Start Section Contac-Us -->
+	<section class="contact-us center-align">
+		<div class="contact">
+			<i class="fa fa-envelope-o fa-4x"></i>
+			<h2 class="title flow-text">Contact <span>Us</span></h2>
+			<p>Nemo enim ipsam voluptas sit aspernatur aut odit autNemo.</p>
+			<div class="container">
+				<div class="row">
+					<div class="col s12 contact-top">
+						<div class="col s12 m4 contact-item">
+							<i class="fa fa-phone fa-3x"></i>
+							<h5>Telephone</h5>
+							<p>+20 - 01156777283</p>
+						</div>
+						<div class="col s12 m4 contact-item">
+							<i class="fa fa-at fa-3x"></i>
+							<h5>Emaill</h5>
+							<p>atef@atefgad.com</p>
+						</div>
+						<div class="col s12 m4 contact-item">
+							<i class="fa fa-map-marker fa-3x"></i>
+							<h5>Address</h5>
+							<p>Egypt - Sohag</p>
+						</div>
+					</div>
+					<div class="col s12 contact-bottom">
+					  <div class="row">
+						<form class="col s12">
+							<div class="row">
+						        <div class="input-field col s12 m4">
+						          <i class="fa fa-user prefix"></i>
+						          <input id="icon_name" type="text" class="validate">
+						          <label for="icon_name" data-error="wrong" data-success="right">Name</label>
+						        </div>
+						        <div class="input-field col s12 m4">
+									<i class="fa fa-at prefix"></i>
+									<input id="icon_email" type="email" class="validate">
+									<label for="icon_email "data-error="wrong" data-success="right">Email</label>
+						        </div>
+						        <div class="input-field col s12 m4">
+									<i class="fa fa-phone prefix"></i>
+									<input id="telephone" type="tel" class="validate">
+									<label for="telephone" data-error="wrong Phone-Number" data-success="right">Telephone</label>
+						        </div>
+						        <div class="input-field col s12 msg">
+						        	<i class="fa fa-envelope prefix"></i>
+									<textarea id="textarea1" class="materialize-textarea" length="200"></textarea>
+									<label for="textarea1">Your Message</label>
+						        </div>
+						        <div class="input-field col s12">
+						        	<button type="submit" class="btn blink waves-effect waves-light"><i class="fa fa-paper-plane-o"></i>  send</button>
+						        </div>
+							</div>
+						</form>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ End Section Contac-Us -->
+
+	<!-- Start Section Top  -->
+	<section class="section-top">
+		<div class="container">
+			<div class="row">
+				<div class="center-align">
+					<div class="col m9">
+						<p class="flow-text">Nemo enim ipsam voluptas sit aspernatur aut odit autNemo enim ipsam voluptas sit
+					   aspernatur.</p>
+					</div>
+					<div class="col m3">
+						<a href="#!" class="btn-large waves-effect waves-light blink" onclick="Materialize.toast('adding to cart $_$',3000,'rounded')">Buy This Template</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ End Section Top  -->
+
+	<!-- Start Section Payments -->
+	<section class="payments">
+		<div class="container">
+			<div class="row">
+				<div class="col s3">
+					<img src="img/payoneer.png" class="responsive-img" />
+				</div>
+				<div class="col s3">
+					<img src="img/paypal.png" class="responsive-img" />
+				</div>
+				<div class="col s3">
+					<img src="img/payza.png" class="responsive-img" />
+				</div>
+				<div class="col s3">
+					<img src="img/neteller.png" class="responsive-img" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Section Payments -->
+
+	<!-- Start Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12 wow pulse">
+            <h5><i class="fa fa-info-circle"></i> About Company</h5>
+            <hr>
+            <p>Nemo enim ipsam voluptas sit aspernatur aut odit autNemo enim ipsam voluptas sit aspernatur.</p>
+            <div class="social">
+            	<a href="#!"><i class="fa fa-facebook-square fa-3x"></i></a>
+            	<a href="#!"><i class="fa fa-twitter-square fa-3x"></i></a>
+            	<a href="#!"><i class="fa fa-google-plus-square fa-3x"></i></a>
+            </div>
+          </div>
+          <div class="col l4 offset-l2 s12 wow pulse">
+            <h5><i class="fa fa-bookmark"></i> Other Links</h5>
+            <hr>
+            <ul>
+              <li><a href="#!"><i class="fa fa-external-link "></i> Services</a></li>
+              <li><a href="#!"><i class="fa fa-external-link "></i> Blog</a></li>
+              <li><a href="#!"><i class="fa fa-external-link "></i> Works</a></li>
+              <li><a href="#!"><i class="fa fa-external-link "></i> Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright wow flash">
+        <div class="container">
+        	<hr>
+	        Copyright <i class="fa fa-copyright"></i> 2016
+	        <a class="right white-text" href="http://atefgad.com" target="_blank"><i class="fa fa-code"></i> Atef Gad</a>
+        </div>
+      </div>
+    </footer>
+	<!-- End Footer -->
+
+	<!-- start go to up -->
+	<div id="scrollToTop">
+		<i class="fa fa-chevron-circle-up fa-3x"></i>
+	</div>
+	<!-- end go to up -->
+
+	<!-- Js Files -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/script.js"></script>
+    
+</body>
+</html>

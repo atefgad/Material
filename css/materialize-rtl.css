@@ -1,0 +1,86 @@
+body {
+  direction: rtl;
+}
+.input-field label {
+  right: 0.75rem;
+}
+.collapsible-header i {
+  float: right;
+  margin-left: 1rem;
+  margin-right: inherit;
+}
+.collapsible-body p {
+  margin-bottom: 0 !important;
+}
+.accordion, .accordion-border, .accordion-color {
+  margin-bottom: 30px;
+}
+form p {
+  text-align: right;
+}
+[type="checkbox"] {
+  /* checkbox aspect */
+}
+[type="checkbox"] + label {
+  padding-right: 35px;
+}
+[type="checkbox"] + label:before {
+  right: 0;
+}
+[type="checkbox"]:checked {
+  /* checkbox aspect */
+}
+[type="checkbox"]:checked + label:before {
+  right: 10px;
+}
+[type="checkbox"].filled-in + label:before {
+  right: 10px;
+}
+[type="checkbox"].filled-in + label:after {
+  right: 0;
+}
+[type="radio"] {
+  /* radio aspect */
+  /* radio aspect */
+}
+[type="radio"] + label {
+  padding-right: 35px;
+}
+[type="radio"] + label:before {
+  right: 0;
+}
+[type="radio"] + label:after {
+  right: 0;
+}
+.row .col {
+  float: right;
+}
+.file-field .btn {
+  float: right;
+}
+span.badge {
+  left: 15px;
+  right: inherit;
+}
+.dropdown-content li {
+  text-align: right;
+}
+.secondary-content {
+  float: left;
+}
+.input-field .prefix ~ input,
+.input-field .prefix ~ textarea {
+  margin-right: 3rem;
+  margin-left: inherit;
+}
+
+.input-field .prefix ~ label {
+  margin-right: 4rem;
+  margin-left: inherit;
+}
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  right: -9999px;
+  left: initial;
+}
